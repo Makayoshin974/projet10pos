@@ -191,7 +191,11 @@ rect ,polygon{
 }
 .diapovideos{
 	margin-top: 30px;
+
+
 }
+
+
 
 .contenu{
 	position: relative;
@@ -213,10 +217,14 @@ h6{
 
 }
 .blockvideos{ display: flex;
+
 	justify-content: space-between;
+
+
 }
 #block2{
 	margin-left:13px; 
+
 }
 
 .bas{ position: absolute;
@@ -254,13 +262,6 @@ h1{
 	position: absolute;
 	right: -40px;
 	top: 13px;
-
-
-}
-.caroussel{
-	margin-top: 60px;
-	background-color: #d8d8d8;
-	height: 200px;
 
 
 }
@@ -341,6 +342,7 @@ h1{
 	}
 	.diapovideos{
 		margin-left:0; 
+
 	}
 	#block2{
 		margin-top: 50px;
@@ -376,4 +378,32 @@ h1{
 		display: none;
 	}
 }
+/*caroussel text ---------------------------*/
 
+
+.caroussel{
+	margin-top: 60px;
+}
+.carousel{
+	height: 150px;
+	background-color: #d8d8d8;
+}
+.carou{
+	width: 60%;
+	margin-left: 20%;
+	
+}
+.item{
+	text-align: center;
+	margin-top:50px;
+}
+.carousel-control{
+	font-size: 75px;
+	color: black;
+	line-height:2.2;
+
+
+}
+.carousel-indicators{
+	display: none;
+}

@@ -8,56 +8,51 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="container" id="jumbotron">
-		<div class="row r1" >
-			<div class= "col-md-2 col-sm-4  logo-top" >
-				<div class="gauchetop">
-					<img class="img-responsive" src="img/logoted.png">
-				</div>
-				<div class="droitetop">
-					<a class="btn btn-success achatmob" href="#">
-						<i class="fa fa-ticket fa-3x " aria-hidden="true"></i></a>
+		<div class="container" id="jumbotron">
+			<div class="row r1" >
+				<div class= "col-md-2 col-sm-4  logo-top" >
+					<div class="gauchetop">
+						<img class="img-responsive" src="img/logoted.png">
+					</div>
+					<div class="droitetop">
+						<a class="btn btn-success achatmob" href="#">
+							<i class="fa fa-ticket fa-3x " aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<div class= "col-md-4 col-sm-4 button-top" >
-					<button type="button"  class="btn btn-success achat ">Acheter vos places</button>
+						<button type="button"  class="btn btn-success achat ">Acheter vos places</button>
 				</div>
 				<div class="col-md-2 col-sm-4 icon-top" >
-					<a class="btn btn-primary but-circle fb " href="#">
-						<i class="fa fa-facebook fa-inverse fa-2x" aria-hidden="true"></i>
-					</a>
-					<a class="btn btn-info but-circle" href="#">
-						<i class="fa fa-twitter fa-inverse fa-2x" aria-hidden="true"></i>
-					</a>
-					<a class="btn btn-danger but-circle" href="#">
-						<i class="fa fa-youtube-play fa-inverse fa-2x" aria-hidden="true"></i>
-					</a>
-
-
-
+						<a class="btn btn-primary but-circle fb " href="#">
+							<i class="fa fa-facebook fa-inverse fa-2x" aria-hidden="true"></i>
+						</a>
+						<a class="btn btn-info but-circle" href="#">
+							<i class="fa fa-twitter fa-inverse fa-2x" aria-hidden="true"></i>
+						</a>
+						<a class="btn btn-danger but-circle" href="#">
+							<i class="fa fa-youtube-play fa-inverse fa-2x" aria-hidden="true"></i>
+						</a>
 				</div>
 			</div>
 			<div class="row">
-				
 				<div class="col-md-12 col-xs-12 svg">
-
 					<svg class="svg1" xml:lang="fr">
 						<rect x="0px" y="55px" width="495" height="170" />
 						<polygon points="0,55 468,0 575,217 0,217 " />
 						<text x="25" y="100" style="fill:white;stroke:white;font-size:35px;letter-spacing:2;">Changement 7 secrets</text>
-					</svg>
-				</div>
+						</svg>
+					</div>
 			</div>
-
 			<div class="row">
-				
+					
 				<div class="col-md-3 col-xs-12 agenda  ">
-					<button type="button"  class="btn btn-success play ">J'y vais!</button>
+						<button type="button"  class="btn btn-success play ">J'y vais!</button>
 
 				</div>
 				<div class="redfond"></div>
-			</div>
-		</div>	
+			</div>		
+		</div>
+
 		<div class="container  ">
 			<div class="row">
 				<div class="col-md-5 col-sm-5 ">
@@ -143,43 +138,43 @@
 				<div class="col-md-4 col-xs-6 ordi"><img src="img/ordi.png" class="ordiimg"></div>
 			</div>
 		</div>
-		
+
 		<div class="container caroussel">
 
-			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
 
 				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
+				<div class="carousel-inner">
 					<div class="item active">
-						<br>
-						<br>
-						<br>
-						<p>Vous avez une idée forte à partager ?</p>
-						<div class="carousel-caption">
-							...
-						</div>
+						<p class="carou">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
 					</div>
+
 					<div class="item">
-						<h4>Une initiative remarquable ou un projet innovant qui pourrait inspirer le membres de la communauté TEDxRéunion ?<br>Vous souhaitez nous recommander un intervenant ?</h4>
-						<div class="carousel-caption">
-							...
-						</div>
+						<p class="carou">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
 					</div>
-					...
+
+					<div class="item">
+						<p class="carou">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					</div>
 				</div>
 
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-menu-left"></span>
 					<span class="sr-only">Previous</span>
 				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-menu-right"></span>
 					<span class="sr-only">Next</span>
 				</a>
-			</div>
-		</div>
+			</div>	
+		</div>	
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -207,5 +202,5 @@
 		<script src="https://apis.google.com/js/client.js?onload=chargement" type="text/javascript"></script>
 		<script type="text/javascript" src="js/script.js" ></script>
 
-	</body>
-	</html>
+</body>
+</html>
